@@ -147,7 +147,7 @@ h1{
 }
 
 #aboutbox{
-	border-top: solid black 1px;
+	border-top: solid black 3px;
 	margin-left: 15%;
 	margin-right: 15%;
 	align-content: center;
@@ -169,7 +169,7 @@ h1{
 	margin: 3% 20% 3% 20.7%;
 }
 #contentbox{
-	border-bottom: solid black 1px;
+	border-bottom: solid black 3px;
 	margin-left: 15%;
 	margin-right: 15%;
 	align-content: center;
@@ -204,7 +204,7 @@ h2{
 
 button{
 	text-decoration: none;
-	border: 1px black solid;
+	border: 3px black solid;
 	padding: 2%;
 	display: block;
 	align-content: center;
@@ -221,23 +221,54 @@ button:hover{
 }
 
 @media (max-width: 800px){
+    .heading{ 
+        width: auto;
+        justify-content: center;
+        margin-left: 30%;
+    }
+    
     .headerimage{
         opacity: 0;
+        width: 0%;
     }
 
     .middle-img{
-        width: 70%;
+        padding: 0;
+    display: block;
+    margin: 0% 2% 0% 2%;
+    max-height: 100%;
+    max-width: 96%;
     }
 
     body section{
-        margin: 0;
-        width: 800px;
+        width: 100%;
     }
 
     .headersection{
         justify-self: center;
-        width: 100%;
+        width: 70%;
     }
+
+    footer{
+        margin-left: 2%;
+    }
+
+    #aboutbox{
+        margin-left: 2%;
+        margin-right: 2%;
+        width: auto;
+        justify-content: space-evenly;
+        padding: 3%;
+        
+   }
+   #contentbox{
+    margin-left: 2%;
+    margin-right: 2%;
+    width: auto;
+    justify-content: space-evenly;
+    height: auto;
+    padding: 3%;
+   }
 
 }
 
