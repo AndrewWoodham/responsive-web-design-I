@@ -220,7 +220,31 @@ button:hover{
 	background-color: lightgreen;
 }
 
+.contactinfo{
+    line-height: 220%;
+    margin-top: 1%;
+}
+
+
 @media (max-width: 800px){
+    
+    .logo{
+        position: absolute;
+        top: 0;
+        width: 30%;
+        height: auto;
+       margin-left: 35%;
+       margin-right: 35%;
+    }
+    .navbar{
+        padding-top: 10%;
+        position: static;
+    }
+
+    body{
+        margin-top: 0%;
+    }
+    
     .heading{ 
         width: auto;
         justify-content: center;
@@ -272,3 +296,83 @@ button:hover{
 
 }
 
+@media (max-width: 500px){
+    
+    .navbar{
+        position: static;
+        flex-direction: column;
+        padding-top: 10%;
+    }
+
+    .logo{
+        position: absolute;
+        top: 0;
+        width: 45%;
+        height: auto;
+       margin-left: 30%;
+
+    }
+    
+    body{
+        margin-top: 0;
+    }
+    
+    
+    .heading{ 
+        width: auto;
+        margin-left: 20%;
+    }
+    
+    .headerimage{
+        opacity: 0;
+        width: 0%;
+    }
+
+    .middle-img{
+        padding: 0;
+    display: block;
+    margin: 0% 2% 0% 2%;
+    max-height: 100%;
+    max-width: 96%;
+    }
+
+    body section{
+        width: 100%;
+    }
+
+    .headersection{
+        justify-self: center;
+        width: auto;
+    }
+
+    footer{
+        margin-left: 2%;
+    }
+
+    #aboutbox{
+        margin-left: 2%;
+        margin-right: 2%;
+        width: auto;
+        flex-direction: column;
+        padding: 3%;
+        
+   }
+
+   #aboutbox div{
+       width: 100%;
+   }
+
+   #contentbox{
+    margin-left: 2%;
+    margin-right: 2%;
+    width: auto;
+    justify-content: center;
+    flex-direction: column;
+    height: auto;
+    padding: 3%;
+   }
+
+   #contentbox div{
+    width: 100%;
+    }
+}
