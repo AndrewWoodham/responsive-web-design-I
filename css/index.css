@@ -102,12 +102,14 @@ nav a {
 	from{color: slategray}
 	to{color: rgb(5, 172, 223);}
 }
+
 @keyframes buttonhover{
 	from{font-size: 90%}
 	to{font-size: 120%}
 	from{color: slategray}
 	to{color: rgb(5, 172, 223);}
 }
+
 nav a:hover{
 	font-size: 150%;
 	color: rgb(5, 172, 223);
@@ -115,27 +117,33 @@ nav a:hover{
 	animation-duration: .5s;
 }
 
+
 section{
 	display: flex;
 
 }
+
 .heading{
 	display: flex;
 	justify-content: space-between;
 	margin: 2% 14% 2% 25%;
 }
+
 h1{
 	font-size: 500%;
 	text-align: center;
 }
+
 .headersection{
 	display:flex;
 	justify-content: center;
 	flex-direction: column;
 }
+
 .button{
 	justify-content: center;
 }
+
 .buttonnav{
 	display:flex;
 	border: solid 1px black;
@@ -144,6 +152,10 @@ h1{
 	margin-right: 20%;
 	border-radius: 30%;
 	background-color: lightgreen;
+}
+
+.headerimage{
+    width: 100%;
 }
 
 #aboutbox{
@@ -167,11 +179,10 @@ h1{
 
 .middle-img{
     padding: 2%;
-    display: block;
-    margin-left: 15%;
-    margin-right: 15%;
-    max-height: auto;
-    max-width: auto;
+    display: inline-block;
+    margin: auto;
+    height: auto;
+    width: 70%;
 }
 #contentbox{
 	border-bottom: solid black 3px;
@@ -263,11 +274,11 @@ button:hover{
     }
 
     .middle-img{
-        padding: 0;
+    padding: 0;
     display: block;
     margin: 0% 2% 0% 2%;
     max-height: 100%;
-    max-width: 96%;
+    width: 96%;
     }
 
     body section{
