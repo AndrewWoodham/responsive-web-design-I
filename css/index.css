@@ -221,7 +221,7 @@ h2{
 
 button{
 	text-decoration: none;
-	border: 3px black solid;
+	border: 3px black ;
 	padding: 2%;
 	display: block;
 	align-content: center;
@@ -318,7 +318,7 @@ button:hover{
     .navbar{
         position: static;
         flex-direction: column;
-        padding-top: 10%;
+        padding-top: 12%;
     }
 
     .logo{
@@ -393,4 +393,10 @@ button:hover{
    #contentbox div{
     width: 100%;
     }
+
+    a{
+        border-bottom: 1px black solid;
+        border-top: 1px black solid;
+    }
+    
 }
